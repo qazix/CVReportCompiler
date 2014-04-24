@@ -72,7 +72,7 @@ public class CVDocumentGetter
 			{
             public boolean accept(File file)
             {
-	            return file.toString().startsWith("GalaxyReport", file.toString().lastIndexOf(File.separator) + 1) && 
+	            return file.toString().startsWith("BackupJob", file.toString().lastIndexOf(File.separator) + 1) && 
 	            		 file.toString().endsWith(".xml") && 
 	            		 (cal.getTimeInMillis() > file.lastModified());
             }
